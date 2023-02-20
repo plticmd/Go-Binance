@@ -13,20 +13,6 @@ function App() {
   const [addressInput, setAddressInput] = useState<string>("");
   const [addressPrefix, setAddressPrefix] = useState(SS58_PREFIX);
 
-  // const plmToEvm = useCallback(() => {
-  //   if (
-  //     addressInput &&
-  //     addressType === "SS58" &&
-  //     polkadotCryptoUtils.checkAddress(addressInput, addressPrefix)[0]
-  //   ) {
-  //     return polkadotUtils.u8aToHex(
-  //       polkadotCryptoUtils.addressToEvm(addressInput, true)
-  //     );
-  //   } else {
-  //     return "invalid";
-  //   }
-  // }, [addressInput, addressType, addressPrefix]);
-
   const evmToPlm = useCallback(() => {
     if (
       addressInput &&
@@ -45,30 +31,13 @@ function App() {
     else return "invalid";
    }, [evmToPlm, addressType]);
 
-  //   else return plmToEvm();
-  // }, [evmToPlm, plmToEvm, addressType]);
-
+  
   return (
     <div className="card">
     <div className="App">
       <header className="App-header">
        
-        {/* <p>Current address type: {addressType}</p> */}
-         {/* <label className="switch">
-           <input type="checkbox"
-            onChange={() => {
-              if (addressType === "SS58") setAddressType("H160");
-              //else setAddressType("SS58");
-            }}
-            /> 
-           
-        </label>  */}
-        {/* <p>Change address prefix</p>
-        <input
-          type="text"
-          value={addressPrefix}
-          onChange={(e) => setAddressPrefix(Number.parseInt(e.target.value))}
-        ></input> */}
+       
         <p>Input Metamask Address</p>
         <input
           type="text"
@@ -76,10 +45,7 @@ function App() {
           onChange={(e) => setAddressInput(e.target.value)}
         ></input>
 
-        {/* <p>{addressInput}</p> */}
-
-        {/* <p>{resultAddress}</p> */}
-        
+       
         <p>result address⬇︎</p>
         <input
           type="text"
