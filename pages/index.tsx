@@ -71,14 +71,15 @@ const Home: NextPage = () => {
         {account ? (
           <>
             <div className="card">
-              <h4>
+              <h3>
                 Connected : {NETWORK_LABEL[chainId as ChainId]}
-              </h4>
-              <h4>
+              </h3>
+              <h3>
                 Remain Balance : {nativeBalance || 0}{' '}
                 {chainData?.nativeCurrency?.symbol}
-              </h4>
-              <p>Metamask Address: {account}</p>
+              </h3>
+              <p
+                h3>Metamask Address: {account}</h3>
               <button className="btn" onClick={() => deactivate()}>
                 Logout
               </button>
