@@ -6,7 +6,7 @@ const Shiden =
 const Astar =
  '/Astar.png'
 const Mainnet =
-   '/Metamask_Fox 2.png'
+   '/MetamaskFox.png'
 
 export const NETWORK_ICON = {
   [ChainId.SBY]: Shibuya,
