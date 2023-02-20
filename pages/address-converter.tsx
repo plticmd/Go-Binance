@@ -12,6 +12,7 @@ function App() {
   //const [addressType, setAddressType] = useState<"H160" | "SS58">("SS58");
   const [addressInput, setAddressInput] = useState<string>("");
   const [addressPrefix, setAddressPrefix] = useState(SS58_PREFIX);
+  const [RresultAddress, setResultAddress] = useState<string>("");
 
   const evmToPlm = useCallback(() => {
     if (
