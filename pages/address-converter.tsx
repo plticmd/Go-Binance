@@ -39,7 +39,7 @@ function App() {
       <header className="App-header">
        
        
-        <h3>Input Metamask Address</h3>
+        <h4>Input Metamask Address</h4>
         <input
           type="text"
           value={addressInput}
@@ -47,7 +47,7 @@ function App() {
         ></input>
 
        
-        <h3>result address⬇︎</h3>
+        <h4>result address⬇︎</h4>
         <input
           type="text"
           value={resultAddress}
