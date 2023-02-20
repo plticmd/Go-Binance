@@ -39,7 +39,7 @@ function App() {
       <header className="App-header">
        
        
-        <p>Input Metamask Address</p>
+        <h3>Input Metamask Address</h3>
         <input
           type="text"
           value={addressInput}
@@ -47,13 +47,13 @@ function App() {
         ></input>
 
        
-        <p>result address⬇︎</p>
+        <h3>result address⬇︎</h3>
         <input
           type="text"
           value={resultAddress}
           onChange={(e) => setResultAddress(e.target.value)}
         ></input>
-         <h3>⬆️Copy and go <a href="https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ASTR" target="_blank"><u>Binance</u></a> to paste</h3>
+         <h1>⬆️Copy and go <a href="https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/ASTR" target="_blank"><u>Binance</u></a> to paste</h1>
       </header>
     </div>
     </div>
