@@ -20,8 +20,8 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: rgb(10, 10, 10);
+    color: rgb(247, 247, 245);
+    background: rgb(68, 67, 64);
   }
 }
 
@@ -43,9 +43,9 @@ a {
   );
   background: radial-gradient(
     circle,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(11, 11, 78, 1) 35%,
-    rgba(0, 0, 0, 1) 100%
+    rgb(9, 11, 57) 0%,
+    rgb(27, 25, 82) 35%,
+    rgb(47, 48, 77) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
   border: 1px solid;
@@ -66,18 +66,18 @@ a {
   margin-right: 1%;
 }
 .btn {
-  background-color: rgb(46, 46, 244);
+  background-color: rgb(34, 103, 138);
   padding: 0.5em 1em;
   border: none;
   border-radius: 2px;
-  color: white;
+  color: rgb(228, 218, 198);
 }
 .btn:hover {
-  background-color: rgb(87, 87, 240);
+  background-color: rgb(75, 75, 69);
   cursor: pointer;
 }
 .btn:active {
-  background-color: rgb(0, 0, 255);
+  background-color: rgb(32, 64, 132);
 }
 .items-center {
   align-items: center;
