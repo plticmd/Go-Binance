@@ -139,7 +139,7 @@ const Home: NextPage = () => {
                 </div>
               ) : null
             )}
-            <p>You can receive Astar tokens on Metamask from Binance.com without Gox.</p>
+            <h3>You can receive Astar tokens on Metamask from Binance.com without Gox.</h3>
           </div>
         </div>
 
