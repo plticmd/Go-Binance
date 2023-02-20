@@ -71,15 +71,14 @@ const Home: NextPage = () => {
         {account ? (
           <>
             <div className="card">
-              <h3>
+              <h4>
                 Connected : {NETWORK_LABEL[chainId as ChainId]}
-              </h3>
-              <h3>
+              </h4>
+              <h4>
                 Remain Balance : {nativeBalance || 0}{' '}
                 {chainData?.nativeCurrency?.symbol}
-              </h3>
-              <p
-                h3>Metamask Address: {account}</h3>
+              </h4>
+              <p>Metamask Address: {account}</p>
               <button className="btn" onClick={() => deactivate()}>
                 Logout
               </button>
@@ -142,7 +141,7 @@ const Home: NextPage = () => {
             )}
             
           </div>
-          <h3>You can receive Astar tokens on Metamask from Binance.com without Gox.</h3>
+          <h4>You can receive Astar tokens on Metamask from Binance.com without Gox.</h4>
         </div>
 
         <div className="card">
