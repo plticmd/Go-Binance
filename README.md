@@ -22,10 +22,11 @@
 
    ＊＊＊　Challenges I ran into　＊＊＊
    
-    To be automated "convert H160 address to SS58 address", then "assign SS58 to H160".
-    It's mean the H160 address == SS58 address.
-    Then the Binance recognize the H160 address without they have no XVM.
-    //Make a dapp can withdraw the “ASTR“ which sended to H160 address from Binance when the XVM version upped.
+    To be automated "convert H160 address to SS58 address", 
+    //then "assign SS58 to H160".
+    //It's mean the H160 address == SS58 address.
+    //Then the Binance recognize the H160 address without they have no XVM.
+    //Or... withdraw the Gox-“ASTR“ which sended to H160 address from Binance.
 
    ＊＊＊　Technologies I used　＊＊＊
    
