@@ -57,3 +57,6 @@
     https://youtu.be/vUmtR2KnneM
 
 
+   ✔️ yarn install
+   ✔️ yarn build
+   ✔️ yarn start
