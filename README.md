@@ -36,11 +36,7 @@
    ＊＊＊　How we built it　＊＊＊
    
     Repeat research and simulations.
-
-
-[Contact information]
-
-    governoron@gmail.com
+    
 
 [Name of bounty participated]
 
